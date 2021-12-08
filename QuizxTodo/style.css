@@ -1,0 +1,49 @@
+body{
+    background: #a5a5a7;
+  }
+  .container{
+    max-width: 400px;
+  }
+  input[type=text],
+  input[type=text]:focus{
+    color:black;
+    border: none;
+    background: rgba(0,0,0,0.2);
+    max-width: 400px;
+  }
+  .todos li{
+    background: #423a6f;
+  }
+  .delete{
+    cursor: pointer;
+  }
+
+  .filtered{
+      display: none !important;
+  }
+
+  .ninjaTodo{
+    display: none;
+  }
+  .ninjaQuiz{
+    display: none;  
+  }
+
+  h1{
+      text-align: center;
+      padding-bottom: 60px;
+  }
+
+  .buttons{
+      text-align: center;
+  }
+
+  .quizButton {
+      padding: 15px;
+      border-radius: 3%;
+  }
+
+  .todoButton{
+      padding: 15px;
+      border-radius: 3%;
+  }
